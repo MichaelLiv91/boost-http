@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Routing">
+      <UniqueIdentifier>{9457390d-53fb-4222-bb9c-cfc15645473d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Routing">
+      <UniqueIdentifier>{8ea9b908-6a21-4717-a9f7-30b1035517c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Controllers">
+      <UniqueIdentifier>{df1763eb-62e0-4238-a6a1-342b010bb61b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Controllers">
+      <UniqueIdentifier>{f54c2c65-ea36-402a-896c-dc33b33e5141}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Types">
+      <UniqueIdentifier>{363543dc-1f04-4cbe-97bd-771c710f7d88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Services">
+      <UniqueIdentifier>{ed60906b-005e-4708-a4c4-c52074c9296c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Services">
+      <UniqueIdentifier>{5f3c49ed-98f2-4fa5-91ff-1b68eef4d4dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Servers">
+      <UniqueIdentifier>{64fbe02c-7e80-44c7-b7b7-add38ba3e4b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Servers">
+      <UniqueIdentifier>{24475366-1950-408d-a7d8-5b9ccf1d7bf0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RequsetHandler.cpp">
+      <Filter>Source Files\Routing</Filter>
+    </ClCompile>
+    <ClCompile Include="include\StaticFileController.cpp">
+      <Filter>Source Files\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GeoCalculationHandler.cpp">
+      <Filter>Source Files\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GeoCalculationService.cpp">
+      <Filter>Source Files\Services</Filter>
+    </ClCompile>
+    <ClCompile Include="source\StaticFileService.cpp">
+      <Filter>Source Files\Services</Filter>
+    </ClCompile>
+    <ClCompile Include="source\HttpServer.cpp">
+      <Filter>Source Files\Servers</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WebSocket.cpp">
+      <Filter>Source Files\Servers</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WebSocketController.cpp">
+      <Filter>Source Files\Controllers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\IRouter.h">
+      <Filter>Header Files\Routing</Filter>
+    </ClInclude>
+    <ClInclude Include="include\StaticFileController.h">
+      <Filter>Header Files\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RequsetHandler.h">
+      <Filter>Header Files\Routing</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GeoCalculationController.h">
+      <Filter>Header Files\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BasicTypes.h">
+      <Filter>Header Files\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GeoCalculationService.h">
+      <Filter>Header Files\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="include\StaticFileService.h">
+      <Filter>Header Files\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HttpServer.h">
+      <Filter>Header Files\Servers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WebSocket.h">
+      <Filter>Header Files\Servers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IServer.h">
+      <Filter>Header Files\Servers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WebSocketController.h">
+      <Filter>Header Files\Controllers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
